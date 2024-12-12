@@ -1,5 +1,6 @@
 import React from "react";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -20,24 +21,24 @@ const Footer = () => {
             <h5 className="text-xl font-bold mb-4">Customer Service</h5>
             <ul>
               <li className="mb-2">
-                <a href="#" className="hover:underline">
+                <Link to="#" className="hover:underline">
                   Contact Us
-                </a>
+                </Link>
               </li>
               <li className="mb-2">
-                <a href="#" className="hover:underline">
+                <Link to="#" className="hover:underline">
                   FAQ
-                </a>
+                </Link>
               </li>
               <li className="mb-2">
-                <a href="#" className="hover:underline">
+                <Link to="#" className="hover:underline">
                   Returns
-                </a>
+                </Link>
               </li>
               <li className="mb-2">
-                <a href="#" className="hover:underline">
+                <Link to="#" className="hover:underline">
                   Shipping
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -46,15 +47,15 @@ const Footer = () => {
           <div className="w-full md:w-1/4 mb-6 md:mb-0">
             <h5 className="text-xl font-bold mb-4">Follow Us</h5>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-gray-400">
+              <Link to="#" className="hover:text-gray-400">
                 <FaFacebook size="1.5em" />
-              </a>
-              <a href="#" className="hover:text-gray-400">
+              </Link>
+              <Link to="#" className="hover:text-gray-400">
                 <FaTwitter size="1.5em" />
-              </a>
-              <a href="#" className="hover:text-gray-400">
+              </Link>
+              <Link to="#" className="hover:text-gray-400">
                 <FaInstagram size="1.5em" />
-              </a>
+              </Link>
             </div>
           </div>
 

@@ -18,7 +18,7 @@ const Login = () => {
   const { fetchUserDetails, fetchUserAddToCart } = useContext(Context);
   const [user, setUser] = useState(null); // Initialize with null for clarity
   const [email, setEmail] = useState("");
-
+  console.log(email);
   useEffect(() => {
     const storedEmail = localStorage.getItem("email");
     if (storedEmail) {

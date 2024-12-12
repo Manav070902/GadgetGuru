@@ -11,7 +11,7 @@ const HorizontalCardProduct = ({category, heading}) => {
     const [loading,setLoading] = useState(true)
     const loadingList = new Array(13).fill(null)
 
-    const [scroll,setScroll] = useState(0)
+    // const [scroll,setScroll] = useState(0)
     const scrollElement = useRef()
 
 
@@ -73,7 +73,7 @@ const HorizontalCardProduct = ({category, heading}) => {
               >
                 <div className="bg-gray-300 h-full p-4 min-w-[120px] md:min-w-[145px] animate-pulse"></div>
                 <div className="p-4 grid w-full gap-2">
-                  <h2 className="font-medium text-base md:text-lg text-ellipsis line-clamp-1 text-gray-800 bg-gray-300 animate-pulse p-1 rounded-full"></h2>
+                  <h2 className="font-medium text-base md:text-lg text-ellipsis line-clamp-1 text-gray-800 bg-gray-300 animate-pulse p-1 rounded-full"><></></h2>
                   <p className="capitalize text-gray-600 bg-gray-300 animate-pulse p-1 rounded-full"></p>
                   <div className="flex gap-3 w-full">
                     <p className="text-red-600 font-medium bg-gray-300 animate-pulse p-1 rounded-full"></p>

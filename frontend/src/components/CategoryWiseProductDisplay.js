@@ -39,7 +39,7 @@ const CategroyWiseProductDisplay = ({ category, heading }) => {
                 className="w-full min-w-[280px] md:min-w-[320px] bg-white rounded-sm shadow-lg"
                 key={index}
               >
-                <div className="bg-slate-200 h-48 p-4 flex justify-center items-center animate-pulse"></div>
+                <div className="bg-slate-200 h-48 p-4 flex justify-center items-center animate-pulse"><></></div>
                 <div className="p-4 grid gap-3">
                   <h2 className="font-medium text-base md:text-lg bg-slate-200 animate-pulse h-6 rounded"></h2>
                   <p className="capitalize text-slate-500 bg-slate-200 animate-pulse h-6 rounded"></p>
