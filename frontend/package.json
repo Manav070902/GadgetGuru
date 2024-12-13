@@ -7,6 +7,7 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.9",
     "firebase": "^10.11.1",
     "flowbite-react": "^0.9.0",
     "moment": "^2.30.1",
@@ -32,7 +33,7 @@
     ],
     "rules": {
       "react-hooks/exhaustive-deps": "off"
-    }    
+    }
   },
   "browserslist": {
     "production": [
