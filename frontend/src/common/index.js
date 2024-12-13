@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 const backendDomin = `${process.env.REACT_APP_BACKEND_URL}`
-=======
-const backendDomin = "http://localhost:8080"
->>>>>>> parent of 6c2fbfa (backend url from env)
 
 const SummaryApi = {
     signUP : {
